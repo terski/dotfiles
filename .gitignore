@@ -1,5 +1,6 @@
 # zsh files #
 ############
+.oh-my-zsh*
 .zcompdump*
 .zsh_history
 .zsh_sessions/
