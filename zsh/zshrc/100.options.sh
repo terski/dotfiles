@@ -1,0 +1,5 @@
+setopt NO_CASE_GLOB
+setopt AUTO_CD
+setopt CORRECT
+setopt CORRECT_ALL
+setopt HIST_IGNORE_SPACE
