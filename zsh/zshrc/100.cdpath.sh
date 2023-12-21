@@ -1,1 +1,1 @@
-CDPATH=~:~/Code:~/Code/safe2delete
+CDPATH=~:~/Code:~/Code/okay2delete
