@@ -19,9 +19,9 @@ fi
 rm -rf $HOME/.zshenv
 ln -s $HOME/.dotfiles/.zshenv $HOME/.zshenv
 
-brew tap oven-sh/bun
-brew install awscli bun fnm httpie hyperfine oha yarn
-brew install --cask google-chrome hyper raycast visual-studio-code
+# Homebrew
+ln -s $HOME/.dotfiles/Brewfile $HOME/Brewfile
+brew bundle install
 
 # Fast node manager (https://github.com/Schniz/fnm)
 fnm completions --shell zsh

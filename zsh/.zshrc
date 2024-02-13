@@ -3,3 +3,6 @@ for FN in $ZDOTDIR/zshrc/*.sh ; do
     source "$FN"
 done
 
+
+# bun completions
+[ -s "/Users/matt/.bun/_bun" ] && source "/Users/matt/.bun/_bun"
