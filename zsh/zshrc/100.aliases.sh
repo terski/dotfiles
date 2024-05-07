@@ -20,6 +20,10 @@ alias ys='yarn start'
 alias ysd='yarn start:dev'
 alias yt='yarn test'
 
+# Bun
+alias br='bun run --watch'
+alias bt='bun test --watch'
+
 # Directory shortcuts
 alias l='ls -lF -G'
 alias la='ls -a -lF -G'
