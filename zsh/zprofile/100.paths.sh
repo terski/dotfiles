@@ -1,2 +1,1 @@
-path+=(${HOME}/Dropbox/zsh/bin)
-export PATH
+export PATH=$PATH:${ZDOTDIR}/bin
