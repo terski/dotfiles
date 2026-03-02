@@ -17,7 +17,7 @@ fi
 
 # Removes .zshenv from $HOME (if it exists) and symlinks the .zshenv file from the .dotfiles
 rm -rf $HOME/.zshenv
-ln -s $HOME/.dotfiles/.zshenv $HOME/.zshenv
+ln -s $HOME/.dotfiles/zsh/.zshenv $HOME/.zshenv
 
 # Homebrew
 ln -s $HOME/.dotfiles/Brewfile $HOME/Brewfile
