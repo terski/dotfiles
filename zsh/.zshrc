@@ -5,4 +5,4 @@ done
 
 
 # bun completions
-[ -s "/Users/matt/.bun/_bun" ] && source "/Users/matt/.bun/_bun"
+[ -s "$HOME/.bun/_bun" ] && source "$HOME/.bun/_bun"
