@@ -1,1 +1,1 @@
-export PATH=$PATH:${ZDOTDIR}/bin:${HOME}/.dotnet/tools
+export PATH=$PATH:$HOME/.local/bin:${ZDOTDIR}/bin:${HOME}/.dotnet/tools

@@ -1,3 +1,6 @@
+# grok — on fpath before compinit
+[ -d "$HOME/.grok/completions/zsh" ] && fpath=("$HOME/.grok/completions/zsh" $fpath)
+
 autoload -Uz compinit && compinit
 
 # case insensitive path-completion

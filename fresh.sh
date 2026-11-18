@@ -51,6 +51,3 @@ fi
 if [ ! -d "$plugins/zsh-autosuggestions" ]; then
   git clone https://github.com/zsh-users/zsh-autosuggestions "$plugins/zsh-autosuggestions"
 fi
-if [ ! -d "$plugins/zsh-yarn-completions" ]; then
-  git clone https://github.com/chrisands/zsh-yarn-completions "$plugins/zsh-yarn-completions"
-fi

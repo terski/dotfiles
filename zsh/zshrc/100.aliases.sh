@@ -6,6 +6,9 @@ alias .....="cd ../../../.."
 alias ~="cd ~" # `cd` is probably faster to type though
 alias -- -="cd -"
 
+# Claude 
+alias cc="claude"
+
 # Homebrew
 alias brewup='brew update; brew upgrade; brew cleanup; brew doctor'
 
@@ -13,12 +16,6 @@ alias brewup='brew update; brew upgrade; brew cleanup; brew doctor'
 alias c='code .'
 alias g="git"
 alias typora="open -a typora"
-alias yb='yarn build'
-alias yd='yarn dev'
-alias yl='yarn lint'
-alias ys='yarn start'
-alias ysd='yarn start:dev'
-alias yt='yarn test'
 
 # Bun
 alias br='bun run --watch'
