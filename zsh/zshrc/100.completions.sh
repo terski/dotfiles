@@ -14,6 +14,4 @@ zstyle ':completion:*' expand prefix suffix
 # zsh-autosuggestions https://github.com/zsh-users/zsh-autosuggestions#key-bindings
 bindkey '^ ' autosuggest-accept
 bindkey '¬' forward-word
-bindkey '\el' forward-word   # Ghostty Option+l
 bindkey '…' end-of-line
-bindkey '\e;' end-of-line    # Ghostty Option+;
